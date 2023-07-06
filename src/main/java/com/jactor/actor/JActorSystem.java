@@ -1,4 +1,4 @@
-package com.jactor;
+package com.jactor.actor;
 
 import java.util.HashMap;
 import java.util.Map;

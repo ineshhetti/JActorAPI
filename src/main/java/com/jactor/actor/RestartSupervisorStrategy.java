@@ -1,4 +1,4 @@
-package com.jactor;
+package com.jactor.actor;
 
 public class RestartSupervisorStrategy implements SupervisorStrategy {
     private final int maxRestartCount;

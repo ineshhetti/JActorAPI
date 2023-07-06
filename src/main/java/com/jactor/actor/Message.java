@@ -1,4 +1,4 @@
-package com.jactor;
+package com.jactor.actor;
 
 public class Message {
     private final JActorRef sender;

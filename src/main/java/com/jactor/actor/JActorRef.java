@@ -1,4 +1,4 @@
-package com.jactor;
+package com.jactor.actor;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
