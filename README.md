@@ -34,9 +34,9 @@ You can include the Actor API in your project by adding the following Maven depe
 Here's a simple example of how to use the Actor API:
 
 ```java
-import com.example.actor.Actor;
-import com.example.actor.ActorRef;
-import com.example.actor.ActorSystem;
+import com.jactor.JActor;
+import com.jactor.JActorRef;
+import com.jactor.JActorSystem;
 
 public class Main {
     public static void main(String[] args) {
