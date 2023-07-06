@@ -10,18 +10,8 @@ public class Main {
         // Creating subscriber actors
 
 
-        JActorRef subscriber1 = system.createActor("Subscriber1", new JActor() {
-            @Override
-            public void receive(JActorRef sender, Object message) {
-                System.out.println("Subscriber1 received message: " + message);
-            }
-        });
-        JActorRef subscriber2 = system.createActor("Subscriber2", new JActor() {
-            @Override
-            public void receive(JActorRef sender, Object message) {
-                System.out.println("Subscriber2 received message: " + message);
-            }
-        });
+        JActorRef subscriber1 = system.createActor("Subscriber1", (sender, message) -> System.out.println("Subscriber1 received message: " + message));
+        JActorRef subscriber2 = system.createActor("Subscriber2", (sender, message) -> System.out.println("Subscriber2 received message: " + message));
 
         // Subscribing actors to topics
         publisher.subscribe("topic1", subscriber1);
