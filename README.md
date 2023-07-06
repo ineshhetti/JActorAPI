@@ -16,7 +16,7 @@ applications. It allows you to create and manage actors, communicate between the
 
 ### Prerequisites
 
-- Java Development Kit (JDK) 11 or higher
+- Java Development Kit (JDK) 19 or higher
 
 ### Installation
 
